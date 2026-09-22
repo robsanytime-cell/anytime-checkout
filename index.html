@@ -3,12 +3,350 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anytime Solutions</title>
+
+  <title>Anytime Solutions | Get Started</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0f19;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 55px 20px 35px;
+      background: linear-gradient(180deg, #151d30, #0b0f19);
+    }
+
+    .brand {
+      font-size: 38px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #c7cfdd;
+      margin-top: 8px;
+    }
+
+    .hero-text {
+      max-width: 650px;
+      margin: 20px auto 0;
+      color: #d8deea;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 35px 0 10px;
+      font-size: 30px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #aeb8c9;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: #151b28;
+      border: 1px solid #293249;
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,.25);
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .price {
+      font-size: 35px;
+      font-weight: 800;
+      margin: 12px 0 4px;
+    }
+
+    .today {
+      color: #aeb8c9;
+      font-size: 14px;
+    }
+
+    .care {
+      margin: 18px 0;
+      padding: 12px;
+      background: #0f1420;
+      border-radius: 10px;
+      color: #dbe2ef;
+    }
+
+    .trial {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+      background: #635bff;
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: 700;
+      padding: 14px;
+      border-radius: 10px;
+      margin-top: 18px;
+    }
+
+    .button:hover {
+      opacity: .9;
+    }
+
+    .premium {
+      border: 1px solid #635bff;
+    }
+
+    .info {
+      max-width: 760px;
+      margin: 50px auto 25px;
+      background: #151b28;
+      border-radius: 16px;
+      padding: 25px;
+    }
+
+    .info h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .info p {
+      color: #d1d8e5;
+    }
+
+    .telegram {
+      text-align: center;
+      margin: 35px 0;
+    }
+
+    .telegram a {
+      color: #8fa9ff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 15px 45px;
+      color: #7f899a;
+      font-size: 13px;
+    }
+
+    @media (max-width: 800px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .brand {
+        font-size: 32px;
+      }
+
+      .section-title {
+        font-size: 26px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>Anytime Solutions</h1>
-  <p>Streaming made simple.</p>
+  <header class="hero">
+    <h1 class="brand">Anytime Solutions</h1>
+    <div class="tagline">Streaming made simple.</div>
+
+    <p class="hero-text">
+      Choose your device and the number of devices you need.
+      Your equipment comes configured and ready to use,
+      with your first 30 days of Anytime Care included.
+    </p>
+  </header>
+
+  <main class="container">
+
+    <h2 class="section-title">Anytime Standard</h2>
+    <p class="section-subtitle">
+      Simple, affordable streaming device packages.
+    </p>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>1 Device</h3>
+        <div class="price">$99</div>
+        <div class="today">due today</div>
+
+        <div class="care">
+          <span class="trial">First 30 days included</span>
+          Then $20/month
+        </div>
+
+        <a class="button"
+           href="https://buy.stripe.com/8x27sMcaKbX0cgRgvCe7m01">
+          Get Started
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>2 Devices</h3>
+        <div class="price">$149</div>
+        <div class="today">due today</div>
+
+        <div class="care">
+          <span class="trial">First 30 days included</span>
+          Then $25/month
+        </div>
+
+        <a class="button"
+           href="https://buy.stripe.com/dRm7sM5MmaSWcgR1AIe7m02">
+          Get Started
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>3 Devices</h3>
+        <div class="price">$199</div>
+        <div class="today">due today</div>
+
+        <div class="care">
+          <span class="trial">First 30 days included</span>
+          Then $30/month
+        </div>
+
+        <a class="button"
+           href="https://buy.stripe.com/28E7sMeiS2mqgx7frye7m03">
+          Get Started
+        </a>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Google TV Streamer</h2>
+    <p class="section-subtitle">
+      Premium Google TV hardware with Anytime Solutions setup and configuration.
+    </p>
+
+    <div class="cards">
+
+      <div class="card premium">
+        <h3>1 Device</h3>
+        <div class="price">$125</div>
+        <div class="today">due today</div>
+
+        <div class="care">
+          <span class="trial">First 30 days included</span>
+          Then $20/month
+        </div>
+
+        <a class="button"
+           href="https://buy.stripe.com/14A00k2Aa2mq0y9gvCe7m05">
+          Get Started
+        </a>
+      </div>
+
+      <div class="card premium">
+        <h3>2 Devices</h3>
+        <div class="price">$225</div>
+        <div class="today">due today</div>
+
+        <div class="care">
+          <span class="trial">First 30 days included</span>
+          Then $25/month
+        </div>
+
+        <a class="button"
+           href="https://buy.stripe.com/dRm8wQa2CbX080Bfrye7m06">
+          Get Started
+        </a>
+      </div>
+
+      <div class="card premium">
+        <h3>3 Devices</h3>
+        <div class="price">$299</div>
+        <div class="today">due today</div>
+
+        <div class="care">
+          <span class="trial">First 30 days included</span>
+          Then $30/month
+        </div>
+
+        <a class="button"
+           href="https://buy.stripe.com/cNi14ogr0e58ft35QYe7m07">
+          Get Started
+        </a>
+      </div>
+
+    </div>
+
+    <section class="info">
+      <h2>What's Included?</h2>
+
+      <p>
+        ✓ Device setup and configuration
+      </p>
+
+      <p>
+        ✓ First 30 days of Anytime Care included
+      </p>
+
+      <p>
+        ✓ Ongoing setup and technical support through Anytime Care
+      </p>
+
+      <p>
+        ✓ Simple support through Telegram
+      </p>
+
+      <p>
+        After the included 30 days, Anytime Care automatically continues
+        at the monthly rate shown with your selected package unless canceled.
+      </p>
+    </section>
+
+    <div class="telegram">
+      Need help choosing a package?<br>
+      Message Anytime Solutions on Telegram:
+      <a href="https://t.me/ANYTIMESOL">@ANYTIMESOL</a>
+    </div>
+
+  </main>
+
+  <footer>
+    © Anytime Solutions
+  </footer>
 
 </body>
 </html>
